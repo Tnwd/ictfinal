@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menulessontest"
+    tools:context=".lessonchoose">
+
+
+    <LinearLayout
+        android:layout_width="148dp"
+        android:layout_height="676dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/lessonpoum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson2poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson4poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson6poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson8poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson10poum" />
+
+        <ImageButton
+            android:id="@+id/homepoum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/homepoum" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="148dp"
+        android:layout_height="676dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="160dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/lessonpoum1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson1poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson3poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson5poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson7poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson9poum" />
+
+        <ImageButton
+            android:id="@+id/lessonpoum11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lesson11poum" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+
+
