@@ -4,26 +4,27 @@ package com.example.thiti.ict_88510159;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.LinearLayout;
-
-
 
 
 public class lesson2 extends AppCompatActivity {
-    private ViewPager mSlideViewPager;
-    private LinearLayout mDotLayout;
-    private SliderAdapter2 sliderAdapter2;
+
+    private int[] imageUrls = new int[]{
+            R.drawable.lesson2_1,
+            R.drawable.lesson2_2,
+            R.drawable.lesson2_3,
+            R.drawable.lesson2_4,
+            R.drawable.lesson2_5
+
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson2);
+        setContentView(R.layout.activity_lesson);
 
-        mSlideViewPager = (ViewPager) findViewById(R.id.slideViewPager2);
-        mDotLayout = (LinearLayout) findViewById(R.id.dotsLayout2);
-
-        sliderAdapter2 = new SliderAdapter2(this);
-        mSlideViewPager.setAdapter(sliderAdapter2);
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        ViewPagerAdapter adapter = new ViewPagerAdapter(this,imageUrls);
+        viewPager.setAdapter(adapter);
 
 
 
